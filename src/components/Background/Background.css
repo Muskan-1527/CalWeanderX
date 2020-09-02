@@ -1,0 +1,177 @@
+body {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.image1{
+    position:relative;
+    width :99%;
+    height :10%;
+    margin:0px;
+    padding: 0px;
+    top:0px;
+    opacity:0.9;
+}
+
+.image2{
+    position:relative;
+    width :99%;
+    height :100%;
+    margin:0px;
+    padding: 0px;
+    top:0px;
+    opacity:0.9;
+}
+
+.heading{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.head1{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 2px 4px black; */
+    padding:5%;
+    text-decoration: none;
+}
+
+.tagline{
+    color:blue;
+    /* font-size:2em; */
+    box-shadow: 2px 2px 4px orangered;
+    display:inline-block;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    border-bottom:5px solid grey;
+    /* text-shadow: 2px 4px black; */
+    margin-bottom:15%;
+}
+
+.link{
+   color:maroon; 
+}
+
+.weather_link:hover{
+    background-color:blue;
+}
+
+.link1{
+    background-color:white;
+    height:10%;
+    width:50%;
+    align-self:center;
+    position:relative;
+    left:25%;
+}
+
+.weather_link{
+    color:black;
+}
+
+@media (min-width:300px) {
+    .heading{
+        top:28vh;
+    }
+    .head1{
+        font-size: 2em;
+    }
+    .tagline{
+        font-size: 1em;
+        margin-bottom:3%;
+    }
+    
+   .link1{
+    height:2%;
+    width:50%;
+    font-size: 1em;
+}
+
+  .weather_link,.link{
+    font-size: 1em;
+}
+}
+
+
+@media (min-width:300px) and  (max-width: 400px)  {
+    .heading{
+        top:28vh;
+    }
+    .head1{
+        font-size: 2em;
+    }
+    .tagline{
+        font-size: 1em;
+        margin-bottom:5%;
+    }
+    .weather_link,.link{
+        font-size: .7em;
+    }
+    .link1{
+        height:1%;
+        width:50%;
+        font-size: 1em;
+    }
+    
+}
+
+@media (min-width:700px) {
+    .heading{
+        top:15vh;
+    }
+    .head1{
+        font-size: 4em;
+    }
+    .tagline{
+        font-size: 2em;
+        margin-bottom:5%;
+    }
+    .weather_link,.link{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width:1200px) {
+    .heading{
+        top:35vh;
+    }
+    .head1{
+        font-size: 5em;
+    }
+    .tagline{
+        font-size: 2em;
+        margin-bottom:12%;
+    }
+
+}
+
+
+.weather_feature{
+    background-color:white;
+    height:20vh;
+    padding:5px;
+}
+
+
+
+
+.footer {
+    background-color: #122070;
+    color:white;
+}
+
+.middle{
+    background-color:lightblue;
+    color:maroon;
+    text-align:center;
+}
+
+.calendar_feature{
+    background-color: lightsteelblue;
+}
+/* 
+.foot{
+    align-self: center;
+} */

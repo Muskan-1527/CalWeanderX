@@ -1,0 +1,118 @@
+/* styling of the body of the year view */
+body {
+    background-color: white;
+    font-family: sans-serif;
+  }
+  
+  /* making the border of the table */
+ table.calendar {
+    border-collapse: collapse;
+    width:100%;
+  }
+  
+  /* styling of head of the calendar i.e. the section containig the weekdays name */
+  table.calendar thead {
+    background-color: #5A5A5A;
+    color: white;
+    margin-bottom: 3px;
+    border-bottom: 2px solid white;
+  }
+  
+  
+  table.calendar thead th {
+    font-weight: normal;
+    padding: 10px 3px;
+    font-weight: bold;
+  }
+  
+  table.calendar tbody {
+    font-size: 0.8em;
+  }
+  
+  /* styling of all the data of the cells */
+  table.calendar td {
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    border: 1px solid gray;
+    background-color: white;
+    min-width: 15px;
+  }
+
+  /* styling of the cells containg the name of the months */
+  table.calendar td.month-name {
+    font-weight: bold;
+    text-align: left;
+    cursor: default;
+    border-left: none;
+  }
+  
+  table.calendar td.prev-month,
+  table.calendar td.next-month {
+    cursor: default;  
+  }
+  
+  /* the cells separating two weeks */
+  table.calendar td.week-separator {
+    padding: 0;
+    width: 2em;
+    min-width: 0;
+    cursor:default;
+  }
+  
+  /* border of the cells */
+  table.calendar td.bolder {
+    font-weight: bold;
+    color:red;
+  }
+  
+  /* Single selected day */
+  table.calendar td.selected {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+  }
+
+  /* previous , next , and today controls */
+  div.calendar-controls {
+    margin: 5px auto;
+    display: table;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  
+  div.calendar-controls div {
+    display: inline;
+  }
+  
+  div.calendar-controls .current-year {
+    margin: 0 8em;
+  }
+  
+  div.calendar-controls .control {
+    font-weight: bolder;
+    color: #323232;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+  
+  div.calendar-controls .today {
+    position: absolute;
+    right: 2em;
+    line-height: 35px;
+    font-size: 0.6em;
+    text-transform: uppercase;
+  }
+  
+  div#calendar {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #5A5A5A;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+
+  
+
